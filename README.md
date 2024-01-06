@@ -22,6 +22,36 @@ security at a smaller scale.
       sudo nano /etc/suricata/suricata.yaml
 
       ```
+      ![configSuricata](https://github.com/pramoddhayapule/raspi4-intrusion-detection/assets/72139404/ca3d564b-3625-4671-adfd-e955065b405a)
+
+   In this config file you make chages like ip address and network interface you want to monitor.
+
+   ![Config File crpd](https://github.com/pramoddhayapule/raspi4-intrusion-detection/assets/72139404/e7ae9b50-4cc6-406d-a242-aef631369309)
+
+4. **Execution of Suricata:** To Start/Status/Stop Suricata use the following commands:  
+   To Start:
+    ```bash
+   sudo systemctl start suricata
+   ```
+   To Check Status:
+    ```bash
+   sudo systemctl status suricata
+   ```
+    To Stop:
+     ```bash
+   sudo systemctl stop suricata
+   ```
+     ![SuricataStatus](https://github.com/pramoddhayapule/raspi4-intrusion-detection/assets/72139404/52de2afe-462c-4b11-bd05-0d8fc29d6618)
+
+
+5. **To Monitor Network Traffic/Attacks:**
+All the network logs are logged in suricata folder known as fast.log so if the attack or any network requests are made to this ip addr are stored in this log file
+![Screenshot_2024-01-05_07-58-23](https://github.com/pramoddhayapule/raspi4-intrusion-detection/assets/72139404/b0559c8e-a49c-4b08-a215-769d50f20626)
+
+   
+    
+
+
 
 
 
