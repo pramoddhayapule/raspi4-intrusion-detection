@@ -11,7 +11,7 @@ security at a smaller scale.
 - <b>Rasberry pi4</b> 
 
 
-<h2>Environments Use </h2>
+<h2>Environments Used </h2>
 
 - <b>Linux</b>
 - <b>Suricata IDS</b>
