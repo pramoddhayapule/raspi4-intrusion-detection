@@ -45,7 +45,7 @@ security at a smaller scale.
 
 
 5. **To Monitor Network Traffic/Attacks:**
-All the network logs are logged in suricata folder known as fast.log so if the attack or any network requests are made to this ip addr are stored in this log file
+All the network logs are logged in suricata folder known as fast.log so if the attack or any network requests are made to this ip addr are stored in this log file as you can see below we made a ping request from another same network workstation it got logged.
 ![Screenshot_2024-01-05_07-58-23](https://github.com/pramoddhayapule/raspi4-intrusion-detection/assets/72139404/b0559c8e-a49c-4b08-a215-769d50f20626)
 
    
